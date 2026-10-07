@@ -1,0 +1,37 @@
+{
+  "best_model": "RandomForest",
+  "models": {
+    "LogisticRegression": {
+      "AUC_ROC": 0.6658,
+      "AUC_PR": 0.2155
+    },
+    "RandomForest": {
+      "AUC_ROC": 0.6697,
+      "AUC_PR": 0.2146
+    },
+    "GradientBoostedTrees": {
+      "AUC_ROC": 0.6626,
+      "AUC_PR": 0.2113
+    }
+  },
+  "operating_point": "top 20% highest-risk encounters flagged",
+  "confusion_matrix": {
+    "TP": 859,
+    "FP": 3116,
+    "FN": 1452,
+    "TN": 14352
+  },
+  "precision": 0.2161,
+  "recall": 0.3717,
+  "accuracy": 0.769,
+  "base_rate": 0.1168,
+  "top_decile_rate": 0.2589,
+  "top_decile_lift": 2.22,
+  "train_rows": 79561,
+  "test_rows": 19779,
+  "patients_in_both_sets": 0,
+  "tier_cutoffs": {
+    "high": 0.6009690351630065,
+    "medium": 0.5579559196034992
+  }
+}

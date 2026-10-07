@@ -1,0 +1,4 @@
+risk_level,encounters,actual_readmission_pct
+LOW,15804,9.19
+MEDIUM,1978,17.29
+HIGH,1997,25.89

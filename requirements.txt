@@ -1,0 +1,6 @@
+pyspark>=3.5
+pandas
+numpy
+pyarrow
+streamlit
+plotly

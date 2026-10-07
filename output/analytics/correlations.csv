@@ -1,0 +1,13 @@
+feature,correlation
+number_inpatient,0.1683
+prior_visits_total,0.1279
+number_emergency,0.0609
+number_diagnoses,0.0536
+time_in_hospital,0.0469
+num_medications,0.0412
+meds_changed,0.0356
+num_lab_procedures,0.024
+age_mid,0.0222
+number_outpatient,0.0192
+num_procedures,-0.0108
+meds_active,0.0009
